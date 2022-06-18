@@ -1,6 +1,20 @@
 function isPalindrome(word) {
   // Write your algorithm here
+  const zauni = word.toLowerCase()
+const  splitWord = zauni.split('')
+  const reverseWord = splitWord.reverse()
+  reverseJoined = reverseWord.join("")
+  if(zauni == reverseJoined){
+    return true
+  }
+  else{
+    return false
+  }
+
+ 
 }
+isPalindrome('Madam')
+
 
 /* 
   Add your pseudocode here
